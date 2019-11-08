@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dog.interfaces.KingClient;
 import com.dog.model.User;
 
-@RestController
+//@RestController
 public class DogController {
 
 	@Autowired

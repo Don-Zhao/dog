@@ -10,7 +10,7 @@ import com.dog.model.User;
 
 import feign.Request.HttpMethod;
 
-@FeignClient("king")
+//@FeignClient("king")
 public interface KingClient {
 	
 	@RequestMapping(method=RequestMethod.GET, value="/hello")
